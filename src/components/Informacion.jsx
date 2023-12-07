@@ -34,6 +34,7 @@ const Informacion = ({tituloSecundario}) => {
           actualización y desmontaje. Esto permite realizar acciones específicas
           en momentos específicos.
         </li>
+        <li className="list-group-item">JSX (JavaScript XML): Es una extensión de JavaScript que permite escribir código similar a HTML dentro de archivos JavaScript. JSX facilita la creación de elementos de interfaz de usuario en React.</li>
       </ol>
     </section>
   );
