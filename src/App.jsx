@@ -8,8 +8,8 @@ function App() {
     //luego va el maquetado del componente
     <section className="container my-4">
       <h1 className="text-center display-3">Primer App de React</h1>
-      {/* <Informacion></Informacion> */}
-      <Informacion />
+      <Informacion tituloSecundario='Este titulo fue creado con props' ></Informacion>
+      {/* <Informacion /> */}
     </section>
   );
 }
