@@ -1,13 +1,16 @@
 import Informacion from "./components/Informacion";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  //aqui vamos a agregar la lógica del componente, lo más importante
   return (
-    <>
-      <h1>Prueba</h1>
-      //Sintaxis para llamar a un componente
-      <Informacion></Informacion>
-      <Informacion/> 
-    </>
+    //aqui va un poquito más de lógica
+    //luego va el maquetado del componente
+    <section className="container my-4">
+      <h1 className="text-center display-3">Primer App de React</h1>
+      {/* <Informacion></Informacion> */}
+      <Informacion />
+    </section>
   );
 }
 
