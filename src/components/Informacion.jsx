@@ -1,7 +1,7 @@
-const Informacion = ({tituloSecundario}) => {
+const Informacion = ({tituloSecundario, anioActual}) => {
   return (
     <section>
-      <h2>Conceptos básicos de React</h2>
+      <h2>Conceptos básicos de React {anioActual}</h2>
       <h3>{tituloSecundario}</h3>
       <p>
         React es una biblioteca de JavaScript desarrollada por Facebook que se
